@@ -14,7 +14,7 @@ public class PersonUtil {
 
     public String[] personToStringArray(Person person) {
 
-        String[] personArray = new String[2];
+        String[] personArray = new String[2]; //A String Array
 
         personArray[0] = person.getPersonName();
         personArray[1] = String.valueOf(person.getPersonAge());
